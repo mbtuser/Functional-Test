@@ -1,4 +1,10 @@
-﻿Set fileSystemObj = createobject("Scripting.FileSystemObject")
+﻿Dim username
+Dim password
+
+user = Parameter("user_name")
+pass_word = Parameter("password")
+
+Set fileSystemObj = createobject("Scripting.FileSystemObject")
 chromeExist = "C:\Program Files\Google\Chrome\Application\chrome.exe"
 If fileSystemObj.FileExists(chromeExist) then
  systemUtil.Run ("C:\Program Files\Google\Chrome\Application\chrome.exe")
@@ -25,8 +31,8 @@ If Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebButton("Log
 
 
 If Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebEdit("username").Exist Then @@ script infofile_;_ZIP::ssf21.xml_;_
-Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebEdit("username").Set "admin"
-Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebEdit("password").SetSecure "641a29a62fd82f1c94e021a4b731" @@ script infofile_;_ZIP::ssf23.xml_;_
+Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebEdit("username").Set user
+Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebEdit("password").Set pass_word @@ script infofile_;_ZIP::ssf23.xml_;_
 Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebButton("Login").Click
 End If @@ script infofile_;_ZIP::ssf11.xml_;_
  @@ script infofile_;_ZIP::ssf17.xml_;_
@@ -35,3 +41,11 @@ End If @@ script infofile_;_ZIP::ssf11.xml_;_
  	else
  	Reporter.ReportEvent micFail, "Failed", "Fail to Login incurrect user or password"
  End If @@ script infofile_;_ZIP::ssf10.xml_;_
+ 
+ 
+ 
+ 
+ 
+ 
+Browser("Home - Advantage Bank").Page("Home - Advantage Bank_2").WebEdit("password").SetSecure "64591ade38f5007a01d8e941fc24" @@ script infofile_;_ZIP::ssf26.xml_;_
+Browser("Home - Advantage Bank").Page("Home - Advantage Bank_2").WebButton("Login").Click @@ script infofile_;_ZIP::ssf27.xml_;_
