@@ -44,8 +44,4 @@ End If @@ script infofile_;_ZIP::ssf11.xml_;_
  
  
  
- 
- 
- 
-Browser("Home - Advantage Bank").Page("Home - Advantage Bank_2").WebEdit("password").SetSecure "64591ade38f5007a01d8e941fc24" @@ script infofile_;_ZIP::ssf26.xml_;_
-Browser("Home - Advantage Bank").Page("Home - Advantage Bank_2").WebButton("Login").Click @@ script infofile_;_ZIP::ssf27.xml_;_
+
