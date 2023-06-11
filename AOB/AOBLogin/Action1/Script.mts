@@ -41,12 +41,17 @@ If (Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebEdit("user
 else
 Reporter.ReportEvent micFail, "Failed", "Log out from the application failed"
 End If @@ script infofile_;_ZIP::ssf11.xml_;_
- @@ script infofile_;_ZIP::ssf17.xml_;_
+wait (2) @@ script infofile_;_ZIP::ssf17.xml_;_
  If Browser("Home - Advantage Bank").Page("Dashboard - Advantage").WebButton("WebButton").Exist(5) Then
- 	Reporter.ReportEvent micFail, "Failed", "Fail to Login incurrect user or password"
- 	else
  	Reporter.ReportEvent micPass, "Passed Test", "Login succefull"
+ 	else
+ 	Reporter.ReportEvent micFail, "Failed", "Fail to Login incurrect user or password"
  End If @@ script infofile_;_ZIP::ssf10.xml_;_
  
 
+
+
+
+
+ @@ hightlight id_;_65658_;_script infofile_;_ZIP::ssf59.xml_;_
  @@ hightlight id_;_65658_;_script infofile_;_ZIP::ssf57.xml_;_
