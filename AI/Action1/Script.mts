@@ -1,4 +1,5 @@
-﻿AIUtil.SetContext Browser("creationtime:=0")
+﻿
+AIUtil.SetContext Browser("creationtime:=0")
 Browser("creationtime:=0").Navigate "https://www.advantageonlineshopping.com/"
 AIUtil.SetContext Browser("creationtime:=0")
 AIUtil("profile").Click
