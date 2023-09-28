@@ -6,17 +6,18 @@ a=Parameter("User_Name")
 b=Parameter("Password")
 
 
-
 randomize
-c = 0 'Always pass
+c = int(rnd*10) + 1
 
 
-If c=0  Then
-	Reporter.ReportEvent micPass, "Expected 0", "Got" & c
+
+If c>2  Then
+	Reporter.ReportEvent micDone, "Expecting ""Big than 2"" ", "Got: "& c
+	Parameter("Bank_account")="1234"
+	Reporter.ReportEvent micPass, "Passing on", "Got" &c
 Else
-	Reporter.ReportEvent micFail, "Expected 0", "Got" & c
+	Reporter.ReportEvent micFail, "Expecting ""Big than 2"" ", "Got: "& c
+	Parameter("Bank_account")="4321"
 End If
-
-
-
+ 
 
