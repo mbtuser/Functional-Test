@@ -5,10 +5,6 @@ Dim c
 a=Parameter("User_Name")
 b=Parameter("Password")
 
-Reporter.ReportEvent micPass, "Open Stocks ", "Successfully login to AOB site"
-Reporter.ReportEvent micPass, "StockB ", "Successfully manage my stocks"
-Reporter.ReportEvent micPass, "My account ", "My account balance is correct"
-Reporter.ReportEvent micPass, "Go to Dashboard ", "Dashboard opened successfully"
 
 randomize
 c = int(rnd*10) + 1
@@ -19,9 +15,10 @@ If a = "AOB user" Then
 End If
 
 If c>8  Then
-	Reporter.ReportEvent micPass, "Log out", "Log out from the AOB account"
+	Reporter.ReportEvent micDone, "Expecting small than 8", "Got: "& c 
+	Reporter.ReportEvent micPass, "Passing on", "value: " & c
 Else
-	Reporter.ReportEvent micFail, "Logout ", "Failed to Logout from AOB"
+	Reporter.ReportEvent micFail, "Expecting small than 8", "Got: "& c
 End If
 
 
