@@ -12,7 +12,7 @@ DevelopTool=AQT
 
 [Actions]
 Action0=Action0\Script.mts
-Action1=Action1\Script.mts
+Good_Less_than_8=Action1\Script.mts
 
 [VuserProfiles]
 Profiles=Default Profile
@@ -32,16 +32,20 @@ Lang=none
 
 [TulipInfo]
 ProductName=Micro Focus UFT One
-Version=2021
+Version=2023
 
 [TulipAddins]
 ActiveX=
+AgGrid=
 AI=
 Database=
 File Content=
 Insight=
+Mobile=
 Windows Applications=
 TEA=
+UIGrid=
+Visual Basic=
 Web=
 XML=
 

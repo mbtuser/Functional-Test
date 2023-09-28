@@ -10,7 +10,8 @@ randomize
 c = int(rnd*10) + 1
 
 
-If c>2  Then
+
+If c<2  Then
 	Reporter.ReportEvent micDone, "Expecting ""small than 2"" ", "Got: "& c
 	Parameter("Bank_account")="1234"
 	Reporter.ReportEvent micPass, "Passing on", "Got" &c
