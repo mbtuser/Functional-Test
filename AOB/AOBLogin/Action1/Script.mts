@@ -29,7 +29,7 @@ Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebButton("Open")
 End If
 
  'If Browser("Dashboard - Advantage").Page("Home - Advantage Bank").WebButton("Sign-In").Exist(5) Then
-If Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebButton("Login").Exist Then
+If Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebElement("Login").Exist Then
  	Reporter.ReportEvent micPass, "Passed Test", "Logout succefull"
  End If'End of IF already login so log out
 
@@ -37,7 +37,7 @@ If Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebButton("Log
 If (Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebEdit("username").Exist) Then @@ script infofile_;_ZIP::ssf21.xml_;_
 	Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebEdit("username").Set user
 	Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebEdit("password").Set pass_word @@ script infofile_;_ZIP::ssf23.xml_;_
-	Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebButton("Login").Click
+	Browser("Home - Advantage Bank").Page("Home - Advantage Bank").WebButton("Sign-In").Click
 else
 Reporter.ReportEvent micFail, "Failed", "Log out from the application failed"
 End If @@ script infofile_;_ZIP::ssf11.xml_;_
