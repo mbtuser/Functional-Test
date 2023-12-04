@@ -1,0 +1,7 @@
+﻿'The following function checks whether a date string (dateStr) 
+'has the characters representing DD/<MMM string>/YYYY 
+
+Function returnResult(ByRef value)
+   value = value +1
+   returnResult = value
+End Function
