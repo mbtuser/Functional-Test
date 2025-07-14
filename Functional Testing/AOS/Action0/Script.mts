@@ -1,1 +1,1 @@
-﻿RunAction "Action1", oneIteration
+﻿RunAction "Buy Tablet", oneIteration
