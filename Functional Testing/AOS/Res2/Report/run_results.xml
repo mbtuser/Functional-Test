@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<ReportNode type="Step">
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2025-07-14 17:53:05</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>2421ad9b11c74294a6fa3cace47426ae</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>username</Name>
+    <Description>Cannot&amp;nbsp;identify&amp;nbsp;the&amp;nbsp;object&amp;nbsp;"username"&amp;nbsp;(of&amp;nbsp;class&amp;nbsp;WebEdit).&lt;br/&gt;Verify&amp;nbsp;that&amp;nbsp;this&amp;nbsp;object's&amp;nbsp;properties&amp;nbsp;match&amp;nbsp;an&amp;nbsp;object&amp;nbsp;currently&amp;nbsp;displayed&amp;nbsp;in&amp;nbsp;your&amp;nbsp;application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Type = text&lt;br&gt;Mercury Class = WebEdit&lt;br&gt;Html Tag = INPUT&lt;br&gt;_xpath = //SEC-VIEW/DIV[normalize-space()="UsernameUsername"]/INPUT[1]&lt;br&gt;|rows = 0&lt;br&gt;placeholder = &lt;br&gt;Name = username&lt;br&gt;Max Length = 524288&lt;br&gt;Html Id = &lt;br&gt;default value = &lt;br&gt;DHTML Class = ng-pristine ng-untouched ng-valid ng-scope in-focus ng-dirty-add ng-valid-parse-add ng-animate ng-pristine-remove&lt;br&gt;acc_name = &lt;br&gt;</Description>
+    <StartTime>2025-07-14 17:53:05</StartTime>
+    <Duration>0</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Google]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[username]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot&nbsp;identify&nbsp;the&nbsp;object&nbsp;"username"&nbsp;(of&nbsp;class&nbsp;WebEdit).<br/>Verify&nbsp;that&nbsp;this&nbsp;object's&nbsp;properties&nbsp;match&nbsp;an&nbsp;object&nbsp;currently&nbsp;displayed&nbsp;in&nbsp;your&nbsp;application.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[username]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a9994a97411045c5932e10e48a0d9cef</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>SystemUtil.Run "iexplore.exe",1</Name>
+    <StartTime>2025-07-14 17:52:48</StartTime>
+    <Duration>17</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <IconKey>41ea30c963db4454a75f331579d46fd2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2025-07-14 17:52:47</StartTime>
+    <Duration>18</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>8cda971339494987a5d6b21de44812df</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2025-07-14 17:52:47</StartTime>
+    <Duration>18</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <IconKey>c6e9840d8d174b71ae266ce03f2def07</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2025-07-14 17:53:05</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>4c9b554e791d48febb52d9eb838e4f7b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AOS</Name>
+    <ToolName>OpenText Functional Testing</ToolName>
+    <ToolVersion>25.2</ToolVersion>
+    <ToolVersionStringLiteral>25.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2025-07-14 17:52:40</StartTime>
+    <Duration>25</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>c5e66a474c654d20a33bdb2387ef77bb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+03:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>OPENTEXT\msabag</User>
+      <CpuInfo>Intel(R) Core(TM) i7-10610U CPU @ 1.80GHz</CpuInfo>
+      <NumberOfCores>8</NumberOfCores>
+      <TotalMemory>16068</TotalMemory>
+      <HostName>opentext.net\ILSABAGMU01</HostName>
+      <OSInfo>Windows 10 21H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res2</ResultName>
+    <RunStartTime>2025-07-14 17:52:40</RunStartTime>
+    <Timezone>+03:00:00</Timezone>
+    <OrchestrationToolName>OpenText Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>25.2</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>25.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
