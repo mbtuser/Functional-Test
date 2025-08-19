@@ -31,12 +31,11 @@ Default Profile=default.usp
 Lang=none
 
 [TulipInfo]
-ProductName=Micro Focus UFT One
-Version=2023
+ProductName=OpenText Functional Testing
+Version=25.2
 
 [TulipAddins]
-ActiveX=
-AgGrid=
+AF=
 AI=
 Database=
 File Content=
@@ -44,8 +43,6 @@ Insight=
 Mobile=
 Windows Applications=
 TEA=
-UIGrid=
-Visual Basic=
 Web=
 XML=
 
