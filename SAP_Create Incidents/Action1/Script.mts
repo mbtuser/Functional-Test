@@ -4,8 +4,7 @@ Browser("Browser").Navigate "http://aeqaauto01.otxlab.net:80/AppEnhancer" @@ hig
  @@ script infofile_;_ZIP::ssf2.xml_;_
 If Browser("Browser").Page("Welcome to AppEnhancer").WebEdit("User").Exist Then
 	Reporter.ReportEvent micPass, "Passed Test", "Login window opened"
-End If
-
+End If 
 
 
 
