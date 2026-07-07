@@ -1,4 +1,8 @@
 ﻿
+'1. Run UFT One test on SAP Shopping Cart navigate to Local URL
+'2. Select Desktop Compuer and add it to Cart
+'3. Buy the product
+
 Dim iURL, objShell, fileSystemObj, browserPath
 iURL = Parameter("Site_URL")
 Set objShell = CreateObject("Shell.Application")
@@ -13,9 +17,9 @@ End If
 End If
 objShell.ShellExecute browserPath, iURL, "", "", 1
 Wait(5)
-
-Browser("Browser").FullScreen @@ hightlight id_;_659120_;_script infofile_;_ZIP::ssf1.xml_;_
-Browser("Browser").Page("Shopping Cart").WebList("Categories").Select "Desktop Computers5" @@ script infofile_;_ZIP::ssf2.xml_;_
+ @@ hightlight id_;_659120_;_script infofile_;_ZIP::ssf1.xml_;_
+ Browser("Browser").FullScreen
+Browser("Shopping Cart").Page("Shopping Cart").WebList("Categories").Select "Desktop Computers5"
 Browser("Browser").Page("Shopping Cart").WebList("container-cart---category--pro").Select "1.200,00 EUREmphasizedGaming MonsterTitaniumAvailableObject StatusEntry successfully validatedCompare" @@ script infofile_;_ZIP::ssf3.xml_;_
 Browser("Browser").Page("Shopping Cart").WebButton("Add to Cart").Click @@ script infofile_;_ZIP::ssf4.xml_;_
 Browser("Browser").Page("Shopping Cart").WebButton("Show Shopping Cart").Click @@ script infofile_;_ZIP::ssf5.xml_;_
