@@ -1,6 +1,6 @@
 ﻿
 Dim iURL, objShell, fileSystemObj, browserPath
-iURL = "http://127.0.0.1:8080/index.html"
+iURL = Parameter("Site_URL")
 Set objShell = CreateObject("Shell.Application")
 Set fileSystemObj = CreateObject("Scripting.FileSystemObject")
 browserPath = "C:\Program Files\Google\Chrome\Application\chrome.exe"
@@ -19,7 +19,8 @@ Browser("Browser").Page("Shopping Cart").WebList("Categories").Select "Desktop C
 Browser("Browser").Page("Shopping Cart").WebList("container-cart---category--pro").Select "1.200,00 EUREmphasizedGaming MonsterTitaniumAvailableObject StatusEntry successfully validatedCompare" @@ script infofile_;_ZIP::ssf3.xml_;_
 Browser("Browser").Page("Shopping Cart").WebButton("Add to Cart").Click @@ script infofile_;_ZIP::ssf4.xml_;_
 Browser("Browser").Page("Shopping Cart").WebButton("Show Shopping Cart").Click @@ script infofile_;_ZIP::ssf5.xml_;_
-Browser("Browser").Page("Shopping Cart").WebList("Items in Shopping Cart").Select "4 x1.200,00 EUREmphasizedGaming MonsterSave for LaterAvailableObject StatusEntry successfully validated" @@ script infofile_;_ZIP::ssf6.xml_;_
+Wait(2)
+Browser("Browser").Page("Shopping Cart").WebList("Items in Shopping Cart").Select "1 x1.200,00 EUREmphasizedGaming MonsterSave for LaterAvailableObject StatusEntry successfully validated" @@ script infofile_;_ZIP::ssf6.xml_;_
 Browser("Browser").Page("Shopping Cart").WebButton("Proceed").Click @@ script infofile_;_ZIP::ssf7.xml_;_
 Browser("Browser").Page("Shopping Cart").WebButton("Step 2").Click @@ script infofile_;_ZIP::ssf8.xml_;_
 Browser("Browser").Page("Shopping Cart").WebList("container-cart---checkoutView-").Select "Cash on Delivery" @@ script infofile_;_ZIP::ssf9.xml_;_
